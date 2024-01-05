@@ -5,7 +5,7 @@ import { Box, Button, FormControl, FormLabel, Input, NumberDecrementStepper, Num
 import * as web3 from '@solana/web3.js'
 import { useConnection, useWallet } from '@solana/wallet-adapter-react'
 
-const MOVIE_REVIEW_PROGRAM_ID = 'CenYq6bDRB7p73EjsPEpiYN7uveyPUTdXkDkgUduboaN'
+const MOVIE_REVIEW_PROGRAM_ID = 'DiNeQbEPMZspM7uF973SQhPKY5WVdz8DZ1Z4uVwTaCsv'
 
 export const Form: FC = () => {
     const [title, setTitle] = useState('')
